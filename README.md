@@ -1,17 +1,17 @@
-🛍️**Zara-Inspired Fashion E-Commerce System**
+**Zara-Inspired Fashion E-Commerce System**
 
-📌 **Project Overview:**
+ **Project Overview:**
 
 The **Zara-Inspired Fashion E-Commerce System** is a database project developed to simulate an online fashion shopping platform. It allows customers to browse fashion products, add items to their shopping cart, place orders, and make payments. The project also enables administrators to manage products, inventory, customers, and orders efficiently. **This project is developed for educational purposes** to demonstrate SQL database concepts in an e-commerce environment.
 
-🎯**Objectives:**
+**Objectives:**
 
 • Develop a structured e-commerce database using SQL.   
 • Manage customer, product, and order information efficiently.    
 • Reduce manual data management through database automation.    
 • Demonstrate real-world database design concepts.    
 
-✨ **Features:**
+ **Features:**
 
 • Customer Registration & Login   
 • Product Catalog   
@@ -23,7 +23,7 @@ The **Zara-Inspired Fashion E-Commerce System** is a database project developed 
 • Customer Order History   
 • Admin Product Management   
 
-**🗄️Database Tables**   
+**Database Tables**   
 • Customers   
 • Categories   
 • Products   
@@ -32,14 +32,14 @@ The **Zara-Inspired Fashion E-Commerce System** is a database project developed 
 • Order_Items   
 • Payments   
 
-**🛠️ Technologies Used**   
+** Technologies Used**   
 • HTML5   
 • CSS3   
 • JavaScript   
 • MySQL   
 • SQL   
 
-**💻System Workflow**
+**System Workflow**
 
 Customer
 
@@ -79,21 +79,21 @@ Database Updated
     ▼
 Admin Manages Orders & Inventory
 
-**🔒 Security Features:**   
+** Security Features:**   
 • User Authentication   
 • Password Protection   
 • Secure Database Access   
 • Input Validation   
 • Data Integrity   
 
-**🚀 Future Enhancements**   
+** Future Enhancements**   
 • Online Payment Gateway Integration   
 • Product Reviews and Ratings   
 • Wishlist Feature   
 • AI-Based Product Recommendations   
 • Mobile Application Support   
 
-**👩‍💻Author**
+**Author**
 
 AARTHY.V    
 B.Sc. Computer Science with Artificial Intelligence   
