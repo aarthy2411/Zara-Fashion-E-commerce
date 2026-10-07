@@ -1,9 +1,9 @@
--- Zara E-Commerce Management System
--- Order and Order_Details Analysis
+ Zara E-Commerce Management System
+ Order and Order_Details Analysis
 
 
 
--- 1. CREATE ORDERS TABLE
+
 
 CREATE TABLE Orders (
     Order_ID INT PRIMARY KEY,
@@ -14,7 +14,7 @@ CREATE TABLE Orders (
 );
 
 
--- 2. CREATE ORDER_DETAILS TABLE
+
 
 CREATE TABLE Order_Details (
     Order_Detail_ID INT PRIMARY KEY,
@@ -27,7 +27,7 @@ CREATE TABLE Order_Details (
     FOREIGN KEY (Product_ID) REFERENCES Product(Product_ID)
 );
 
--- 3. ORDER DATA INSERTION
+
 
 INSERT INTO Orders VALUES
 (1001, 108, TO_DATE('20-09-2026','DD-MM-YYYY'), 2500.00);
@@ -45,7 +45,7 @@ INSERT INTO Orders VALUES
 (1005, 224, TO_DATE('24-09-2026','DD-MM-YYYY'), 4200.00);
 
 
--- 4. ORDER_DETAILS DATA INSERTION
+
 
 INSERT INTO Order_Details VALUES
 (1, 1001, 101, 1, 2500.00, 2500.00);
@@ -63,20 +63,20 @@ INSERT INTO Order_Details VALUES
 (5, 1005, 105, 2, 2100.00, 4200.00);
 
 
--- 5. ORDER MODIFICATION OPERATIONS
 
--- 5.1 Modify order amount
+
+
 UPDATE Orders
 SET Total_Amount = 2700.00
 WHERE Order_ID = 1001;
 
--- 5.2 Modify order date
+
 UPDATE Orders
 SET Order_Date = TO_DATE('25-09-2026','DD-MM-YYYY')
 WHERE Order_ID = 1001;
 
 
--- 6. ORDER_DETAILS MODIFICATION
+
 
 UPDATE Order_Details
 SET Quantity = 3,
@@ -84,7 +84,7 @@ SET Quantity = 3,
 WHERE Order_Detail_ID = 2;
 
 
--- 7. CUSTOMER ORDER HISTORY REPORT
+
 
 SELECT
     O.Order_ID,
