@@ -101,6 +101,4 @@ ON O.Order_ID = OD.Order_ID
 ORDER BY O.Order_Date;
 
 
--- 8. COMMIT CHANGES
-
 COMMIT;
