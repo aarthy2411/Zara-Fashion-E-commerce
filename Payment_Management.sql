@@ -1,5 +1,4 @@
--- Zara E-Commerce Database Management System
--- DBMS - Payment Management System
+ Payment Management System
 
 
 
